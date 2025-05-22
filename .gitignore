@@ -1,0 +1,32 @@
+# Ignora el entorno virtual
+venv/
+.env/
+ENV/
+env/
+
+# Archivos del sistema
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+
+# Archivos temporales
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Archivos y carpetas generadas por editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de configuración de Jupyter y cachés
+.ipynb_checkpoints/
+*.ipynb
+
+# Configuraciones de sistema operativo
+*.~lock.*#
